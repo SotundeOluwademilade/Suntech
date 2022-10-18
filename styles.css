@@ -1,0 +1,85 @@
+body{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+    width: 100%;
+    background-color: #1A374D;
+}
+nav{
+    width: 100%;
+    height: 7.5vh;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.heading{
+    font-family: fantasy;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img{
+    padding: 10px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 10vh;
+}
+/* .home{
+    background-color: cadetblue; 
+    height: inherit;
+     width: fit-content;
+     display: flex;
+     justify-content: center;
+      align-items: center;
+       border-radius: 100%; 
+       color: #fff;
+} */
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #6998AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:930px){
+
+   .nav-menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+   }
+    .home, .solar, .inverters, .battery{
+        font-size: 10px;
+        justify-content: space-between;
+    }
+    img{
+        width: 150px;
+        height: 100px;
+    }
+    article{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
